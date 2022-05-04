@@ -13,12 +13,12 @@ public class DS01Stack {
     }
 }
 
+/**
+ * Stack has a fixed size.
+ * You can add element at the top of stack.
+ * You can only remove the top element of stack.
+ */
 class Stack {
-    /**
-     * Stack should store only one data type.
-     * Stack has a fixed size.
-     */
-
     //* Fields
     private int arr[]; // To store our elements
     private int top; // To keep track of top element
@@ -29,6 +29,7 @@ class Stack {
         arr = new int[size];
         capacity = size;
 
+        // Keep index of top-most element
         top = -1; // -1 to indicate stack is empty.
     }
 
@@ -60,6 +61,19 @@ class Stack {
     }
 
     /**
+     * Remove an element from the top of a stack
+     *
+     * @return element removed
+     */
+    public int pop() {
+        // Prevent out of bounds error
+        if (isEmpty()) System.exit(1);
+
+        // Decrement top and return element removed
+        return arr[top--];
+    }
+
+    /**
      * Check if the stack is empty
      *
      * @return
@@ -75,13 +89,5 @@ class Stack {
      */
     private boolean isFull() {
         return top == capacity - 1;
-    }
-
-    public int pop() {
-        // Prevent out of bounds error
-        if (isEmpty()) System.exit(1);
-
-        // Decrement top and return element removed
-        return arr[top--];
     }
 }
