@@ -21,7 +21,7 @@ public class DS01Stack {
 class Stack {
     //* Fields
     private int arr[]; // To store our elements
-    private int top; // To keep track of top element
+    private int top; // Pointer - To keep track of top element
     private int capacity; // Size of stack
 
     //* Constructor
