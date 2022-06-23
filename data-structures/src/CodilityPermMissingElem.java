@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- * https://app.codility.com/demo/results/trainingXZH5T2-EGM/
+ *
  */
 
 public class CodilityPermMissingElem {
