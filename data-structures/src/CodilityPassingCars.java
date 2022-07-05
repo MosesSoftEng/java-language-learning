@@ -11,7 +11,7 @@
  *
  * Solution Link
  * https://app.codility.com/demo/results/trainingMREUX8-8R8/ 100%
- * 
+ *
  * PseudoCode naive approach, Complexity O(N^2) Quadratic time
  * ------------------------------------------------------------------------
  * DECLARE passesCount
