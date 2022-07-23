@@ -1,4 +1,4 @@
-package Codility;
+package com.dsa.Codility;
 
 /**
  * Number of times of a value you can get from another value. Frog Jumps

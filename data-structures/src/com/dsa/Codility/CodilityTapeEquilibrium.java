@@ -1,4 +1,4 @@
-package Codility;
+package com.dsa.Codility;
 
 import java.math.BigInteger;
 
