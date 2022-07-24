@@ -1,2 +1,2 @@
 # Data Structures
-## DataStrucutures.Stack data structures
+## Stack data structures

@@ -1,4 +1,4 @@
-package DataStrucutures;
+package com.dsa;
 
 public class DS01Stack {
     public static void main(String args[]) {

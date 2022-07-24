@@ -1,4 +1,4 @@
-package DataStrucutures;
+package com.dsa;
 
 public class DS02Queue {
     public static void main(String args[]) {
